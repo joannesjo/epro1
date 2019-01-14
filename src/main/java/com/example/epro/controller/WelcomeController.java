@@ -18,4 +18,9 @@ public class WelcomeController {
     public String test1(Map<String, Object> model) {
         return "test1";
     }
+    @RequestMapping("/index")
+    public String index() {
+        System.out.println("inside welcome");
+        return "index";
+    }
 }
