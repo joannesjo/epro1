@@ -29,4 +29,9 @@ public class WelcomeController {
         System.out.println("inside welcome1");
         return "index1";
     }
+    @RequestMapping("/login")
+    public String login() {
+        System.out.println("inside login");
+        return "index";
+    }
 }
