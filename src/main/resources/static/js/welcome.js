@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-
+    $("#persinforesultdiv").hide();
     $( "#login" ).click(function() {
 
         $.ajax({
@@ -147,4 +147,40 @@ $( document ).ready(function() {
     myFlipster.flipster('pause'); // Pause the autoplay until next jump
     myFlipster.flipster('stop'); // Stop the autoplay entirely
     myFlipster.flipster('index'); // If items are added or removed, you can tell Flipster to reindex
+
+
+    $( "#savepersinfo" ).click(function() {
+
+        $.ajax({
+            url: '/savepersinfo',
+            success: function (response) {
+                $("#persinforesultdiv").show();
+                alert("success");
+                window.setTimeout(function(){
+                    window.location.href = "index";
+                }, 6000);
+            },
+            error: function (jqXHR, exception) {
+                var msg = '';
+                if (jqXHR.status === 0) {
+                    msg = 'Not connect.\n Verify Network.';
+                } else if (jqXHR.status == 404) {
+                    msg = 'Requested page not found. [404]';
+                } else if (jqXHR.status == 500) {
+                    msg = 'Internal Server Error [500].';
+                } else if (exception === 'parsererror') {
+                    msg = 'Requested JSON parse failed.';
+                } else if (exception === 'timeout') {
+                    msg = 'Time out error.';
+                } else if (exception === 'abort') {
+                    msg = 'Ajax request aborted.';
+                } else {
+                    msg = 'Uncaught Error.\n' + jqXHR.responseText;
+                }
+                alert("msg = "+msg);
+            },
+        });
+    });
+
+
 });

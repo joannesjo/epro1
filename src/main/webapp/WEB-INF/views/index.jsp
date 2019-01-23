@@ -20,237 +20,32 @@
     <link href="/css/jquery.flipster.min.css" rel="stylesheet">
     <script src="/js/jarallax.js"></script>
     <link href="/css/jarallax.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
     <title>Title</title>
 </head>
 <body class="bg-white">
-
-<div class="my-flipster bgbl h-75 w-100">
-    <ul class="w-100 h-100">
-        <li data-flip-title="Item 1 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/images1.jpg"></li>
-        <li data-flip-title="Item 2 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/1.jpg"></li>
-        <li data-flip-title="Item 3 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/image3.jpg"></li>
-        <li data-flip-title="Item 1 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/2.jpg"></li>
-        <li data-flip-title="Item 2 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/image2.jpg"></li>
-        <li data-flip-title="Item 3 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/3.jpg"></li>
-        <li data-flip-title="Item 1 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/images1.jpg"></li>
-        <li data-flip-title="Item 2 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/4.jpg"></li>
-        <li data-flip-title="Item 3 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/image3.jpg"></li>
-        <li data-flip-title="Item 1 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/5.jpg"></li>
-        <li data-flip-title="Item 2 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/image2.jpg"></li>
-        <li data-flip-title="Item 3 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/image3.jpg"></li>
-        <li data-flip-title="Item 3 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/6.jpg"></li>
-        <li data-flip-title="Item 3 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/7.jpg"></li>
-        <li data-flip-title="Item 3 Title" data-flip-category="Category 2"><img class="w-100 h-100" src="/images/8.jpg"></li>
-    </ul>
-</div>
-
-<nav class="navbar navbar-expand-sm bg-dark">
-    <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link text-white" href="#">Link 1</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-white" href="#">Link 2</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-white" href="#">Link 3</a>
-        </li>
-    </ul>
-</nav>
-<div class="row w-100">
-
-    <div class="p-lg-5 col-lg-6">
-        <div class="row w-100 h-75 border border-success rounded">
-            <div class="card w-100">
-                <div class="card-header bg-success text-white rounded">
-                    Personal Information <i class="fa fa-edit fa-2x text-white pl-lg-5"></i>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                </ul>
-            </div>
-        </div>
-        <br>
-        <div class="row w-100 h-75 border border-success rounded">
-            <div class="card w-100">
-                <div class="card-header bg-success text-white rounded">
-                    Personal Information <i class="fa fa-edit fa-2x text-white pl-lg-5"></i>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                </ul>
-            </div>
-        </div>
-        <br>
-        <div class="row w-100 h-75 border border-success rounded">
-            <div class="card w-100">
-                <div class="card-header bg-success text-white rounded">
-                    Personal Information <i class="fa fa-edit fa-2x text-white pl-lg-5"></i>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                </ul>
-            </div>
-        </div>
-        <br>
-        <div class="row w-100 h-75 border border-success rounded">
-            <div class="card w-100">
-                <div class="card-header bg-success text-white rounded">
-                    Personal Information <i class="fa fa-edit fa-2x text-white pl-lg-5"></i>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                </ul>
-            </div>
-        </div>
+<%--HORIZONTAL NAVBAR--%>
+<jsp:include page="navigation.jsp" />
+<%--IMAGE FLIPSTER--%>
+<jsp:include page="flipsterimage.jsp" />
+<div class="pl-lg-5 row w-100">
+    <%--LEFT SIDE--%>
+    <div class="p-lg-5 col-lg-6 border-left border-danger w-100">
+        <%--PERSONAL INFORMATION--%>
+            <jsp:include page="persinfo.jsp" />
+        <%--EDUCATION DETAILS--%>
+            <jsp:include page="eduinfo.jsp" />
+        <%--SOCIAL BACKGROUND--%>
+            <jsp:include page="socinfo.jsp" />
+        <%--FAMILY DETAILS--%>
+            <jsp:include page="faminfo.jsp" />
     </div>
-
-    <div class="col-lg-6 p-lg-5">
-        <div class="row w-100 h-75 border border-primary rounded">
-            <div class="card w-100">
-                <div class="card-header bg-primary text-white rounded">
-                    Partner Preference <i class="fa fa-edit fa-2x text-white pl-lg-5"></i>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                    <div class="row w-100 pl-lg-5">
-                        <li class="pl-lg-5 list-group-item text-success font-weight-bold border-0">Cras justo odio</li>
-                        <li class=" list-group-item text-success border-0">Cras justo odio</li>
-                    </div>
-                </ul>
-            </div>
-        </div>
+        <%--RIGHT SIDE--%>
+    <div class="col-lg-6 p-lg-5  border-right border-danger w-100">
+        <%--PARTNER PREFERENCE--%>
+        <jsp:include page="partinfo.jsp" />
     </div>
 </div>
 </body>

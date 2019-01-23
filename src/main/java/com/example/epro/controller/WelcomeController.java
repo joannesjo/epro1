@@ -34,4 +34,9 @@ public class WelcomeController {
         System.out.println("inside login");
         return "index";
     }
+    @RequestMapping("/savepersinfo")
+    public String savepersinfo() {
+        System.out.println("inside savepersinfo");
+        return "index";
+    }
 }
