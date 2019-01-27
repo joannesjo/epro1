@@ -3,9 +3,11 @@ package com.example.epro.model;
 import jdk.Exported;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
-public class PersonalInformation {
+public class PersonalInformation{
+    @Id
     int personId;
     String name;
     String Dob;

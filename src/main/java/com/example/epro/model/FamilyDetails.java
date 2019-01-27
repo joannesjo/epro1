@@ -1,6 +1,11 @@
 package com.example.epro.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class FamilyDetails {
+    @Id
     int id;
     String fathersName;
     String mothersName;

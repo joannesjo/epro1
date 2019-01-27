@@ -1,6 +1,11 @@
 package com.example.epro.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class PartnerPreference {
+    @Id
     int id;
     String qualification;
     String age;
