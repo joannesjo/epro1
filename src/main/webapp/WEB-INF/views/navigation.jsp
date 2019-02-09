@@ -1,14 +1,27 @@
-<nav class="navbar navbar-expand-sm bgbl card border-bottom border-dark">
-    <ul class="navbar-nav">
-        <li class="nav-item col-lg-5">
-            <a class="nav-link text-white" href="#"><h6>Link 1</h6></a>
-        </li>
+<nav class="navbar navbar-expand-sm bg-white">
 
-        <li class="nav-item col-lg-5">
-            <a class="nav-link text-white" href="#"><h6>Link 1</h6></a>
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item col-lg-3">
+            <a class="nav-link text-danger" href="#createprofile" rel="modal:open"><h5>Create Profile</h5></a>
         </li>
-        <li class="nav-item col-lg-5 bg-dark">
-            <a class="nav-link text-white" href="#"><h6>Link 1</h6></a>
+        <li class="nav-item col-lg-3">
+            <a class="nav-link text-danger" href="#"><h5>Link 1</h5></a>
+        </li>
+        <li class="nav-item col-lg-3">
+            <a class="nav-link text-danger" href="#"><h5>Link 1</h5></a>
+        </li>
+        <li class="nav-item col-lg-3">
+            <a class="nav-link text-danger" href="#"><h5>Link 1</h5></a>
+        </li>
+        <li class="nav-item col-lg-3">
+            <a class="nav-link text-danger" href="#"><h5>Link 1</h5></a>
+        </li>
+        <li class="nav-item col-lg-3">
+            <a class="nav-link text-danger" href="#"><h5>Link 1</h5></a>
+        </li>
+        <li class="nav-item col-lg-3">
+            <a class="nav-link text-danger" href="#"><h5>Link 1</h5></a>
         </li>
     </ul>
 </nav>

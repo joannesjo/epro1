@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <title>Title</title>
 </head>
-<body class="bg-white">
+<body class="bgbl">
 
 
 <div id="ex1" class="modal">
@@ -50,18 +50,17 @@
 
 
 
-<nav class="navbar navbar-expand-sm bgbl">
+<nav class="navbar navbar-expand-sm bgbl border border-dark card">
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <p><a href="#ex1" rel="modal:open" class="bg-primary text-white btn btn-primary">Login</a></p>
+            <p><a href="#ex1" rel="modal:open" class="bgbl text-white btn btn-primary">Login</a></p>
         </li>
     </ul>
 </nav>
-<div class="jarallax bgbl text-dark text-center h-50 row">
-    <h2 class="bgbl text-center w-100">Santhome</h2>
-    <div class="my-flipster bgbl h-100">
-        <ul class="w-50">
-            <li data-flip-title="Item 1 Title" data-flip-category="Category 1"><img src="/images/images1.jpg"></li>
+<div class="jarallax bg-white text-dark text-center h-75 row">
+    <div class="my-flipster bg-danger h-100">
+        <ul class="w-100">
+            <li data-flip-title="Item 1 Title" data-flip-category="Category 1"class="h-100"><img src="/images/images1.jpg" class="h-100"></li>
             <li data-flip-title="Item 2 Title" data-flip-category="Category 1"><img src="/images/1.jpg"></li>
             <li data-flip-title="Item 3 Title" data-flip-category="Category 2"><img src="/images/image3.jpg"></li>
             <li data-flip-title="Item 1 Title" data-flip-category="Category 1"><img src="/images/2.jpg"></li>
@@ -76,12 +75,12 @@
         </ul>
     </div>
 </div>
-
+<div class="w-75 m-auto">
 <div class="jarallax h-75" style="background-image: url('/images/1.jpg');"></div>
-<div class="jarallax bg-white text-dark text-center h-50 row">
-    <h2 class="bg-white text-center w-100">Santhome</h2>
-    <div class="my-flipster bg-white h-100">
-        <ul class="w-50">
+<div class="jarallax bgbl text-dark text-center h-50 row">
+    <h2 class="bgbl card text-center w-100 text-white">Santhome</h2>
+    <div class="my-flipster bgbl h-100">
+        <ul class="w-75">
             <li data-flip-title="Item 1 Title" data-flip-category="Category 1"><img src="/images/images1.jpg"></li>
             <li data-flip-title="Item 2 Title" data-flip-category="Category 1"><img src="/images/1.jpg"></li>
             <li data-flip-title="Item 3 Title" data-flip-category="Category 1"><img src="/images/image3.jpg"></li>
@@ -98,10 +97,12 @@
     </div>
 </div>
 <div class="jarallax h-75" style="background-image: url('/images/2.jpg');"></div>
-<div class="jarallax bg-white text-dark text-center h-50 row">
-    <h2 class="bg-white text-center w-100">Santhome</h2>
-    <div class="my-flipster bg-white h-100">
-        <ul class="w-50">
+
+
+<div class="jarallax bgbl text-dark text-center h-50 row">
+    <h2 class="bgbl text-center w-100 text-white card">Santhome</h2>
+    <div class="my-flipster bgbl h-100">
+        <ul class="w-75">
             <li data-flip-title="Item 1 Title" data-flip-category="Category 1"><img src="/images/images1.jpg"></li>
             <li data-flip-title="Item 2 Title" data-flip-category="Category 1"><img src="/images/1.jpg"></li>
             <li data-flip-title="Item 3 Title" data-flip-category="Category 2"><img src="/images/image3.jpg"></li>
@@ -118,10 +119,12 @@
     </div>
 </div>
 <div class="jarallax h-75" style="background-image: url('/images/3.jpg');"></div>
-<div class="jarallax bg-white text-dark text-center h-50 row">
-    <h2 class="bg-white text-center w-100">Santhome</h2>
-    <div class="my-flipster bg-white h-100">
-        <ul class="w-50">
+
+
+<div class="jarallax bgbl text-dark text-center h-50 row">
+    <h2 class="bgbl text-center w-100 text-white card">Santhome</h2>
+    <div class="my-flipster bgbl h-100">
+        <ul class="w-75">
             <li data-flip-title="Item 1 Title" data-flip-category="Category 1"><img src="/images/images1.jpg"></li>
             <li data-flip-title="Item 2 Title" data-flip-category="Category 1"><img src="/images/1.jpg"></li>
             <li data-flip-title="Item 3 Title" data-flip-category="Category 2"><img src="/images/image3.jpg"></li>
@@ -138,10 +141,12 @@
     </div>
 </div>
 <div class="jarallax h-75" style="background-image: url('/images/4.jpg');"></div>
-<div class="jarallax bg-white text-dark text-center h-50 row">
-    <h2 class="bg-white text-center w-100">Santhome</h2>
-    <div class="my-flipster bg-white h-100">
-        <ul class="w-50">
+
+
+<div class="jarallax bgbl text-dark text-center h-50 row">
+    <h2 class="bgbl text-center w-100 text-white card">Santhome</h2>
+    <div class="my-flipster bgbl h-100">
+        <ul class="w-75">
             <li data-flip-title="Item 1 Title" data-flip-category="Category 1"><img src="/images/images1.jpg"></li>
             <li data-flip-title="Item 2 Title" data-flip-category="Category 1"><img src="/images/1.jpg"></li>
             <li data-flip-title="Item 3 Title" data-flip-category="Category 2"><img src="/images/image3.jpg"></li>
@@ -158,6 +163,7 @@
     </div>
 </div>
 <div class="jarallax h-100" style="background-image: url('/images/5.jpg');"></div>
+</div>
 <div class="jarallax h-25 bgbl"><h1 class="text-white">END OF THE STORY</h1></div>
 </body>
 </html>

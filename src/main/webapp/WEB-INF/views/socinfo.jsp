@@ -2,7 +2,7 @@
     <div class="row w-100 border border-success rounded">
         <div class="card w-100">
             <div class="card-header bg-success text-white rounded">
-                Family Information Editable
+                Social Information Editable
             </div>
             <ul class="list-group list-group-flush">
                 <div class="row w-100 pl-lg-5">
