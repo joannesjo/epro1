@@ -21,13 +21,24 @@
     <script src="/js/jarallax.js"></script>
     <link href="/css/jarallax.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="/css/jquery.modal.min.css" />
+   <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/material-bootstrap-wizard.js"></script>
+    <script src="/js/jquery.bootstrap.js"></script>
 
     <title>Title</title>
 </head>
 <body class="bg-white">
 <%--CREATE PROFILE MODAL--%>
+
+<%--
 <jsp:include page="createprofile.jsp" />
+--%>
+
+
+<jsp:include page="index2.jsp" />
+
+
 <%--HORIZONTAL NAVBAR--%>
 <jsp:include page="navigation.jsp" />
 <%--IMAGE FLIPSTER--%>

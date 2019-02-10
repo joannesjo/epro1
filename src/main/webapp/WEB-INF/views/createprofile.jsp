@@ -1,4 +1,4 @@
-<div id="createprofile" class="modal">
+<%--<div id="createprofile" class="modal">--%>
 <div class="row w-100 border border-danger rounded">
     <div class="card w-100">
         <div class="card-header bgbl text-white rounded">
@@ -330,4 +330,5 @@
         <button type="submit" class="btn btn-primary w-100">Submit</button>
     </div>
     <br>
-</div>
+<%--
+</div>--%>

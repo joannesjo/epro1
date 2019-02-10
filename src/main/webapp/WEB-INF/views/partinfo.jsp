@@ -1,6 +1,6 @@
 <div id="partinfo" class="modal">
     <div class="row w-100 border border-primary rounded">
-        <div class="card w-100">
+        <div class="card w-100 p-0">
             <div class="card-header bg-primary text-white rounded">
                 Partner Information Editable
             </div>
@@ -73,7 +73,7 @@
 
 
 <div class="row w-100 border border-primary rounded ">
-    <div class="card w-100">
+    <div class="card w-100 p-0">
         <div class="card-header bg-primary text-white rounded">
             Partner Preference<a href="#partinfo" rel="modal:open"> <i class="fa fa-edit fa-2x text-white pl-lg-5"></i></a>
         </div>

@@ -29,6 +29,11 @@ public class WelcomeController {
         System.out.println("inside welcome1");
         return "index1";
     }
+    @RequestMapping("/index2")
+    public String index2() {
+        System.out.println("inside index2");
+        return "index2";
+    }
     @RequestMapping("/login")
     public String login() {
         System.out.println("inside login");

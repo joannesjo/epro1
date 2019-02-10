@@ -1,6 +1,6 @@
-<div id="eduinfo" class="modal">
+<div id="eduinfo" class="modal w-100">
     <div class="row w-100 border border-success rounded">
-        <div class="card w-100">
+        <div class="card w-100 p-0">
             <div class="card-header bg-success text-white rounded">
                 Education Information Editable
             </div>
@@ -73,7 +73,7 @@
 
 
 <div class="row w-100 border border-success rounded">
-    <div class="card w-100">
+    <div class="card w-100 p-0">
         <div class="card-header bg-success text-white rounded">
             Education Details <a href="#eduinfo" rel="modal:open"> <i class="fa fa-edit fa-2x text-white pl-lg-5"></i></a>
         </div>
