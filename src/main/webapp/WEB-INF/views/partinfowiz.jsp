@@ -1,70 +1,78 @@
-<div class="row w-100 border border-primary rounded">
-    <div class="card w-100">
-        <div class="card-header bg-primary text-white rounded">
-            Partner Information Editable
+<div class="tab-pane" id="partinfowiz">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Email</label>
+                    <input name="name" type="text" class="form-control">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Password</label>
+                    <input name="name2" type="password" class="form-control">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Password</label>
+                    <input name="name2" type="password" class="form-control">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Password</label>
+                    <input name="name2" type="password" class="form-control">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Email</label>
+                    <input name="name" type="text" class="form-control">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Password</label>
+                    <input name="name2" type="password" class="form-control">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Password</label>
+                    <input name="name2" type="password" class="form-control">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Password</label>
+                    <input name="name2" type="password" class="form-control">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Email</label>
+                    <input name="name" type="text" class="form-control">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Password</label>
+                    <input name="name2" type="password" class="form-control">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Password</label>
+                    <input name="name2" type="password" class="form-control">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Password</label>
+                    <input name="name2" type="password" class="form-control">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Email</label>
+                    <input name="name" type="text" class="form-control">
+                </div>
+
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Password</label>
+                    <input name="name2" type="password" class="form-control">
+                </div>
+
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Password</label>
+                    <input name="name2" type="password" class="form-control">
+                </div>
+
+                <div class="form-group label-floating">
+                    <label class="control-label">Your Password</label>
+                    <input name="name2" type="password" class="form-control">
+                </div>
+            </div>
         </div>
-        <ul class="list-group list-group-flush">
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">Name</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">DOB</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">Marital Status</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">Birth Order No.</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">Complexion</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">Blood Group</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">Drink</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">Body Type</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">Health Information</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">Height</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">Body Weight</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">Diet</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">Smoking</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <div class="row w-100 pl-lg-5">
-                <li class="pl-lg-5 list-group-item text-primary font-weight-bold border-0 col-lg-5">Others</li>
-                <li class=" list-group-item text-primary border-0"><input type="text"></li>
-            </div>
-            <br>
-            <div class="row w-100 pl-lg-5">
-                <button type="submit" class="btn btn-primary w-100">Submit</button>
-            </div>
-            <br>
-        </ul>
-    </div>
+        <div>
+            <a class="btn btn-danger" id="partinfowizsubmit">Submit</a>
+        </div>
 </div>

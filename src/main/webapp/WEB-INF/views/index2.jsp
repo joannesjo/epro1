@@ -1,5 +1,6 @@
 <link href="/css/material-bootstrap-wizard.css" rel="stylesheet">
-<div id="createprofile" class="wizard-container modal p-0">
+<div id="createprofile" class="modal p-0">
+<div  class="wizard-container p-0">
     <div class="card wizard-card bg-dark" data-color="red" id="wizard">
         <form action="" method="">
             <div class="wizard-navigation">
@@ -14,57 +15,7 @@
             </div>
             <div class="tab-content">
                 <div class="tab-pane" id="testwiz">
-                <div class="row">
-                    <div class="col-sm-6">
-
-                            <div class="form-group label-floating">
-                                <label class="control-label">Your Email</label>
-                                <input name="name" type="text" class="form-control">
-                            </div>
-
-
-                            <div class="form-group label-floating">
-                                <label class="control-label">Your Password</label>
-                                <input name="name2" type="password" class="form-control">
-                            </div>
-
-                            <div class="form-group label-floating">
-                                <label class="control-label">Your Password</label>
-                                <input name="name2" type="password" class="form-control">
-                            </div>
-
-
-                            <div class="form-group label-floating">
-                                <label class="control-label">Your Password</label>
-                                <input name="name2" type="password" class="form-control">
-                            </div>
-
-                    </div>
-                    <div class="col-sm-6">
-
-                            <div class="form-group label-floating">
-                                <label class="control-label">Your Email</label>
-                                <input name="name" type="text" class="form-control">
-
-                        </div>
-
-                            <div class="form-group label-floating">
-                                <label class="control-label">Your Password</label>
-                                <input name="name2" type="password" class="form-control">
-                            </div>
-
-                            <div class="form-group label-floating">
-                                <label class="control-label">Your Password</label>
-                                <input name="name2" type="password" class="form-control">
-                            </div>
-
-                            <div class="form-group label-floating">
-                                <label class="control-label">Your Password</label>
-                                <input name="name2" type="password" class="form-control">
-                            </div>
-
-                    </div>
-                </div>
+                    <jsp:include page="testwiz.jsp" />
                 </div>
                 <div class="tab-pane" id="persinfowiz">
                     <jsp:include page="persinfowiz.jsp" />
@@ -92,4 +43,5 @@
             </div>
         </form>
     </div>
+</div>
 </div>

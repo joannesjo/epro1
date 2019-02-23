@@ -36,7 +36,9 @@
 --%>
 
 
+
 <jsp:include page="index2.jsp" />
+
 
 
 <%--HORIZONTAL NAVBAR--%>
