@@ -2,8 +2,19 @@
 <div id="createprofile" class="modal p-0">
 <div  class="wizard-container p-0">
     <div class="card wizard-card bg-dark" data-color="red" id="wizard">
-        <form action="" method="">
-            <div class="wizard-navigation">
+        <form>
+            <div class="pb-5 wizard-footer">
+                <div class="pull-right">
+                    <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
+                </div>
+                <div class="pull-left">
+                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
+                </div>
+            </div>
+            <div class="pt-3">
+
+            </div>
+            <div class="pt-5 wizard-navigation">
                 <ul>
                     <li><a href="#testwiz" data-toggle="tab">test Details</a></li>
                     <li><a href="#persinfowiz" data-toggle="tab">Personal Details</a></li>
@@ -13,7 +24,7 @@
                     <li><a href="#partinfowiz" data-toggle="tab">Partner Details</a></li>
                 </ul>
             </div>
-            <div class="tab-content">
+            <div class="tab-content bgbl">
                 <div class="tab-pane" id="testwiz">
                     <jsp:include page="testwiz.jsp" />
                 </div>

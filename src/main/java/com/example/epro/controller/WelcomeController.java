@@ -1,14 +1,33 @@
 package com.example.epro.controller;
 
+import com.example.epro.test.CategoryBean;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Map;
 
 @Controller
 public class WelcomeController {
 
+    @RequestMapping("/addCategoryView")
+    public ModelAndView addCategory() {
+        System.out.println("inside addCategory");
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("category", new CategoryBean());
+        modelAndView.setViewName("addCategory");
+        return modelAndView;
+    }
+    @RequestMapping("/addPublication")
+    public String addPublication() {
+        System.out.println("inside addPublication");
+        return "addPublication";
+    }
     @RequestMapping("/welcome")
     public String welcome(Map<String, Object> model) {
         System.out.println("inside welcome");

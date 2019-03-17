@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <div class="tab-pane" id="persinfowiz">
         <div class="row">
             <div class="col-sm-6">
