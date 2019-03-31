@@ -22,12 +22,6 @@ public class Employee_Address
 
     @Column(name="STREET")
     private String street;
-    @Column(name="CITY")
-    private String city;
-    @Column(name="STATE")
-    private String state;
-    @Column(name="COUNTRY")
-    private String country;
 
     @OneToOne(cascade= CascadeType.ALL)
     @JoinColumn(name = "EMP_ID")
@@ -38,14 +32,11 @@ public class Employee_Address
         super();
     }
 
-    public Employee_Address(int addrId, String street, String city, String state, String country, Employee employee)
+    public Employee_Address(int addrId, String street,Employee employee)
     {
         super();
         this.addrId = addrId;
         this.street = street;
-        this.city = city;
-        this.state = state;
-        this.country = country;
         this.employee = employee;
     }
 
@@ -69,35 +60,6 @@ public class Employee_Address
         this.street = street;
     }
 
-    public String getCity()
-    {
-        return city;
-    }
-
-    public void setCity(String city)
-    {
-        this.city = city;
-    }
-
-    public String getState()
-    {
-        return state;
-    }
-
-    public void setState(String state)
-    {
-        this.state = state;
-    }
-
-    public String getCountry()
-    {
-        return country;
-    }
-
-    public void setCountry(String country)
-    {
-        this.country = country;
-    }
 
     public Employee getEmployee()
     {
@@ -112,7 +74,6 @@ public class Employee_Address
     @Override
     public String toString()
     {
-        return "Employee_Address [addrId=" + addrId + ", street=" + street + ", city=" + city + ", state=" + state
-                + ", country=" + country + ", employee=" + employee + "]";
+        return "Employee_Address [addrId=" + addrId + ", street=" + street + ", employee=" + employee + "]";
     }
 }

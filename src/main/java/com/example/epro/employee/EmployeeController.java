@@ -19,6 +19,9 @@ public class EmployeeController{
     @Autowired
     EmployeeRepository employeeRepository;
 
+    @Autowired
+    EmployeeAddressRepository employeeAddressRepository;
+
     @GetMapping("/testvalid")
     public ModelAndView showForm() {
         ModelAndView modelAndView = new ModelAndView();
@@ -33,7 +36,14 @@ public class EmployeeController{
         if (bindingResult.hasErrors()) {
             return "form";
         }
-        employeeRepository.save(employee);
+        Employee employee1 = new Employee();
+        employee1.setEmpId(employee.getEmpId());
+        employee1.setEmpName(employee.getEmpName());
+        employeeRepository.save(employee1);
+        Employee_Address employee_address = new Employee_Address();
+        employee_address.setStreet(employee.getEmployeeAddress().getStreet());
+        employee_address.setEmployee(employee1);
+        employeeAddressRepository.save(employee_address);
         return "results";
     }
 }
